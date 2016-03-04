@@ -17,7 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/second_number"
         android:hint="@string/first_number"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/second_number"
@@ -29,7 +29,7 @@
         android:layout_marginLeft="33dp"
         android:layout_marginStart="33dp"
         android:hint="@string/second_number"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/textView"
