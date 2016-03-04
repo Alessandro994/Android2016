@@ -62,7 +62,7 @@
             android:layout_marginLeft="39dp"
             android:layout_marginStart="39dp"
             android:onClick="evaluateSum"
-            android:text="+" />
+            android:text="@string/plus" />
 
         <Button
             android:id="@+id/difference"
@@ -72,7 +72,7 @@
             android:layout_alignStart="@+id/plus"
             android:layout_below="@+id/plus"
             android:onClick="evaluateDifference"
-            android:text="-" />
+            android:text="@string/diff" />
 
         <Button
             android:id="@+id/multiply"
@@ -81,7 +81,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:onClick="evaluateProduct"
-            android:text="x" />
+            android:text="@string/times" />
 
         <Button
             android:id="@+id/divide"
@@ -91,7 +91,7 @@
             android:layout_alignStart="@+id/multiply"
             android:layout_alignTop="@+id/difference"
             android:onClick="evaluateDivision"
-            android:text="÷" />
+            android:text="@string/div" />
 
         <Button
             android:id="@+id/result"
@@ -101,7 +101,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/clear"
             android:onClick="showResult"
-            android:text="=" />
+            android:text="@string/equal" />
 
         <Button
             android:id="@+id/clear"
@@ -113,7 +113,7 @@
             android:layout_marginEnd="41dp"
             android:layout_marginRight="41dp"
             android:onClick="clearFields"
-            android:text="Clear" />
+            android:text="@string/clear" />
     </RelativeLayout>
 
     <TextView

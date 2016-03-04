@@ -3,4 +3,10 @@
     <string name="first_number">Enter the first value</string>
     <string name="second_number">Enter the second value</string>
     <string name="result">Result</string>
+    <string name="plus">+</string>
+    <string name="diff">-</string>
+    <string name="times">*</string>
+    <string name="div">/</string>
+    <string name="equal">=</string>
+    <string name="clear">Clear</string>
 </resources>

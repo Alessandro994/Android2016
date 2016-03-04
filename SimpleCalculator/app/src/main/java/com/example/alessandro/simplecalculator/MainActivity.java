@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onSaveInstanceState (Bundle outState) {
+    protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putFloat(KEY_RESULT_VALUE, RESULT);
     }
@@ -70,14 +70,14 @@ public class MainActivity extends AppCompatActivity {
         EditText second = (EditText) findViewById(R.id.second_number);
         TextView result = (TextView) findViewById(R.id.textView3);
 
-        if (!first.equals("")) {
+        if (!first.toString().equals("")) {
             first.setText("");
         }
-        if (!second.equals("")) {
+        if (!second.toString().equals("")) {
             second.setText("");
         }
 
-        if (!result.equals("")) {
+        if (!result.toString().equals("")) {
             result.setText("");
         }
     }
