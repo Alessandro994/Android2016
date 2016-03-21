@@ -3,7 +3,7 @@
     <string name="title">My Nanodegree Apps!</string>
     <string name="app1">SPOTIFY STREAMER</string>
     <string name="app2">SUPER DUO</string>
-    <string name="app4">BUILD IT BIGGER</string>
-    <string name="app5">XYZ READER</string>
-    <string name="app6">CAPSTONE: MY OWN APP</string>
+    <string name="app3">BUILD IT BIGGER</string>
+    <string name="app4">XYZ READER</string>
+    <string name="app5">CAPSTONE: MY OWN APP</string>
 </resources>
