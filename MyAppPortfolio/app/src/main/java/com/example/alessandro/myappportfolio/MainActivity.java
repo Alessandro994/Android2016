@@ -18,27 +18,27 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.button1: {
+            case R.id.app1: {
                 button = (Button) findViewById(view.getId());
                 Toast.makeText(MainActivity.this, "This button will launch " + button.getText().toString(), Toast.LENGTH_SHORT).show();
             }
             break;
-            case R.id.button2: {
+            case R.id.app2: {
                 button = (Button) findViewById(view.getId());
                 Toast.makeText(MainActivity.this, "This button will launch " + button.getText().toString(), Toast.LENGTH_SHORT).show();
             }
             break;
-            case R.id.button3: {
+            case R.id.app3: {
                 button = (Button) findViewById(view.getId());
                 Toast.makeText(MainActivity.this, "This button will launch " + button.getText().toString(), Toast.LENGTH_SHORT).show();
             }
             break;
-            case R.id.button4: {
+            case R.id.app4: {
                 button = (Button) findViewById(view.getId());
                 Toast.makeText(MainActivity.this, "This button will launch " + button.getText().toString(), Toast.LENGTH_SHORT).show();
             }
             break;
-            case R.id.button5: {
+            case R.id.app5: {
                 button = (Button) findViewById(view.getId());
                 Toast.makeText(MainActivity.this, "This button will launch " + button.getText().toString(), Toast.LENGTH_SHORT).show();
             }
