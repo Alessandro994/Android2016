@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "698022312973",
+    "project_id": "facetracker-13b26"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698022312973:android:0ee1bea6ae6cacac",
+        "android_client_info": {
+          "package_name": "com.example.alessandro.facetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSCjNjROGbpcuYDpxgqQ3mUmIg6Ti1zK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-76993791-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
